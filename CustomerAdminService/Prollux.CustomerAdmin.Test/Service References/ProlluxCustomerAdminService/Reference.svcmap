@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a3ca9b0e-a9ef-4c53-b8b5-1e5f28196f1e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2592/ProlluxCustomerAdmin.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProlluxCustomerAdmin.disco" MetadataType="Disco" ID="e67e2559-d412-45f8-989d-59a035d5e175" SourceId="1" SourceUrl="http://localhost:2592/ProlluxCustomerAdmin.svc?disco" />
+    <MetadataFile FileName="ProlluxCustomerAdmin.xsd" MetadataType="Schema" ID="74e69a2d-4581-430e-8d76-74afceeb30bc" SourceId="1" SourceUrl="http://localhost:2592/ProlluxCustomerAdmin.svc?xsd=xsd1" />
+    <MetadataFile FileName="ProlluxCustomerAdmin.wsdl" MetadataType="Wsdl" ID="4a8c882f-5b7e-48d2-886a-d16dfecf5083" SourceId="1" SourceUrl="http://localhost:2592/ProlluxCustomerAdmin.svc?wsdl" />
+    <MetadataFile FileName="ProlluxCustomerAdmin1.xsd" MetadataType="Schema" ID="cbd682ff-fb24-4dbc-b288-b86d140dc657" SourceId="1" SourceUrl="http://localhost:2592/ProlluxCustomerAdmin.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProlluxCustomerAdmin2.xsd" MetadataType="Schema" ID="aec39ff1-94b1-4a58-aad6-2ae2f48ece60" SourceId="1" SourceUrl="http://localhost:2592/ProlluxCustomerAdmin.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
