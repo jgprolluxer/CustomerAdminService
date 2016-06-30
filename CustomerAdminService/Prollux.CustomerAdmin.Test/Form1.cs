@@ -28,7 +28,7 @@ namespace Prollux.CustomerAdmin.Test
                 var clientData = new ClientData
                 {
                     ClientId = clientId,
-                    UserName = "jgarza"
+                    UserName = "fanny"
                 };
 
                 result = service.IsValidClient(clientData);
